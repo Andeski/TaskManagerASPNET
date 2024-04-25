@@ -1,0 +1,1 @@
+C:\Users\andex\Documents\TaskManager\taskmanager.client\obj\Debug\taskmanager.client.esproj.CoreCompileInputs.cache

@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\andex\\Documents\\TaskManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|solutionrelative:taskmanager.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.client\\src\\components\\task\\tasklist.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|solutionrelative:taskmanager.client\\src\\components\\task\\tasklist.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.client\\src\\components\\task\\taskform.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|solutionrelative:taskmanager.client\\src\\components\\task\\taskform.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.client\\src\\pages\\taskspage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|solutionrelative:taskmanager.client\\src\\pages\\taskspage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.client\\src\\components\\navbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|solutionrelative:taskmanager.client\\src\\components\\navbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C863535E-24ED-4453-9F82-A4AB0AF3AB02}|TaskManager.Server\\TaskManager.Server.csproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C863535E-24ED-4453-9F82-A4AB0AF3AB02}|TaskManager.Server\\TaskManager.Server.csproj|solutionrelative:taskmanager.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C863535E-24ED-4453-9F82-A4AB0AF3AB02}|TaskManager.Server\\TaskManager.Server.csproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.server\\taskmanager.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C863535E-24ED-4453-9F82-A4AB0AF3AB02}|TaskManager.Server\\TaskManager.Server.csproj|solutionrelative:taskmanager.server\\taskmanager.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "taskForm.tsx",
+              "DocumentMoniker": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\components\\task\\taskForm.tsx",
+              "RelativeDocumentMoniker": "taskmanager.client\\src\\components\\task\\taskForm.tsx",
+              "ToolTip": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\components\\task\\taskForm.tsx",
+              "RelativeToolTip": "taskmanager.client\\src\\components\\task\\taskForm.tsx",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwEMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-25T19:35:56.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "taskList.tsx",
+              "DocumentMoniker": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\components\\task\\taskList.tsx",
+              "RelativeDocumentMoniker": "taskmanager.client\\src\\components\\task\\taskList.tsx",
+              "ToolTip": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\components\\task\\taskList.tsx",
+              "RelativeToolTip": "taskmanager.client\\src\\components\\task\\taskList.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-25T19:35:45.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tasksPage.tsx",
+              "DocumentMoniker": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\pages\\tasksPage.tsx",
+              "RelativeDocumentMoniker": "taskmanager.client\\src\\pages\\tasksPage.tsx",
+              "ToolTip": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\pages\\tasksPage.tsx",
+              "RelativeToolTip": "taskmanager.client\\src\\pages\\tasksPage.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-25T19:33:58.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.tsx",
+              "DocumentMoniker": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\App.tsx",
+              "RelativeDocumentMoniker": "taskmanager.client\\src\\App.tsx",
+              "ToolTip": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\App.tsx",
+              "RelativeToolTip": "taskmanager.client\\src\\App.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-25T19:25:14.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Navbar.tsx",
+              "DocumentMoniker": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\components\\Navbar.tsx",
+              "RelativeDocumentMoniker": "taskmanager.client\\src\\components\\Navbar.tsx",
+              "ToolTip": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\components\\Navbar.tsx",
+              "RelativeToolTip": "taskmanager.client\\src\\components\\Navbar.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-04-25T19:27:29.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\andex\\Documents\\TaskManager\\TaskManager.Server\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManager.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\andex\\Documents\\TaskManager\\TaskManager.Server\\Program.cs",
+              "RelativeToolTip": "TaskManager.Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T19:22:16.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskManager.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\andex\\Documents\\TaskManager\\TaskManager.Server\\TaskManager.Server.csproj",
+              "RelativeDocumentMoniker": "TaskManager.Server\\TaskManager.Server.csproj",
+              "ToolTip": "C:\\Users\\andex\\Documents\\TaskManager\\TaskManager.Server\\TaskManager.Server.csproj",
+              "RelativeToolTip": "TaskManager.Server\\TaskManager.Server.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-25T19:22:14.932Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
