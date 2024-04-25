@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\andex\\Documents\\TaskManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|solutionrelative:taskmanager.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.client\\src\\components\\task\\taskform.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|solutionrelative:taskmanager.client\\src\\components\\task\\taskform.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.client\\src\\components\\task\\tasklist.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|solutionrelative:taskmanager.client\\src\\components\\task\\tasklist.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.client\\src\\components\\task\\taskform.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|solutionrelative:taskmanager.client\\src\\components\\task\\taskform.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.client\\src\\pages\\taskspage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.client\\src\\components\\navbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|solutionrelative:taskmanager.client\\src\\components\\navbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4F86C71B-E21D-434A-AC7E-AC4D571FCF0D}|taskmanager.client\\taskmanager.client.esproj|solutionrelative:taskmanager.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C863535E-24ED-4453-9F82-A4AB0AF3AB02}|TaskManager.Server\\TaskManager.Server.csproj|c:\\users\\andex\\documents\\taskmanager\\taskmanager.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "taskForm.tsx",
               "DocumentMoniker": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\components\\task\\taskForm.tsx",
               "RelativeDocumentMoniker": "taskmanager.client\\src\\components\\task\\taskForm.tsx",
               "ToolTip": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\components\\task\\taskForm.tsx",
               "RelativeToolTip": "taskmanager.client\\src\\components\\task\\taskForm.tsx",
-              "ViewState": "AQIAACgAAAAAAAAAAAAgwEMAAAARAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAgwC0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-04-25T19:35:56.486Z",
               "EditorCaption": ""
@@ -63,12 +63,11 @@
               "RelativeToolTip": "taskmanager.client\\src\\components\\task\\taskList.tsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-25T19:35:45.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T19:35:45.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "tasksPage.tsx",
               "DocumentMoniker": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\pages\\tasksPage.tsx",
               "RelativeDocumentMoniker": "taskmanager.client\\src\\pages\\tasksPage.tsx",
@@ -80,20 +79,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "App.tsx",
               "DocumentMoniker": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\App.tsx",
               "RelativeDocumentMoniker": "taskmanager.client\\src\\App.tsx",
               "ToolTip": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\App.tsx",
               "RelativeToolTip": "taskmanager.client\\src\\App.tsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-04-25T19:25:14.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T19:25:14.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Navbar.tsx",
               "DocumentMoniker": "C:\\Users\\andex\\Documents\\TaskManager\\taskmanager.client\\src\\components\\Navbar.tsx",
               "RelativeDocumentMoniker": "taskmanager.client\\src\\components\\Navbar.tsx",
