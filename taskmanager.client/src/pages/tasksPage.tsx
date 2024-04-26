@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
+import TaskList from '../components/task/taskList';
+import TaskForm from '../components/task/taskForm';
+import { Task } from '../components/types';
+import { createTask } from '../services/taskService';
 
 const TasksPage: React.FC = () => {
+    const [tasks, setTasks] = useState<Task[]>([]);
+
+    const addTask = async (task: Task) => {
+        await createTask(task); //Assuming createTask returns a Promise<void>
+        setTasks([...tasks, task]);
+    };
+
     return (
         <div>
-            <h1>Tasks</h1>
-            {/* Task list component goes here */}
-            {/* Task creation form component goes here */}
+            <TaskForm onSubmit={addTask} />
+            <TaskList tasks={tasks} />
         </div>
     );
 };

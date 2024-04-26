@@ -1,76 +1,71 @@
 import React, { useState } from 'react';
+import { Task } from '../types';
+import { createTask } from '../../services/taskService';
 
 interface TaskFormProps {
-    onSubmit: (task: Task) => void;
-}
-
-interface Task {
-    id: number;
-    name: string;
-    content: string;
-    startDate: Date;
-    endDate: Date;
-    status: string;
-    activityId: number;
+    onSubmit: (task: Task) => Promise<void>;
 }
 
 const TaskForm: React.FC<TaskFormProps> = ({ onSubmit }) => {
-    const [name, setName] = useState('');
-    const [content, setContent] = useState('');
-    const [startDate, setStartDate] = useState(new Date());
-    const [endDate, setEndDate] = useState(new Date());
-    const [status, setStatus] = useState('');
-    const [activityId, setActivityId] = useState(0);
+    const [Name, setName] = useState('');
+    const [Content, setContent] = useState('');
+    const [StartDate, setStartDate] = useState<Date | null>(null);
+    const [EndDate, setEndDate] = useState<Date | null>(null);
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
+        if (!Name || !StartDate || !EndDate) return;
+
         const newTask: Task = {
-            id: Math.floor(Math.random() * 1000), //Generate random ID
-            name,
-            content,
-            startDate,
-            endDate,
-            status,
-            activityId,
+            Id: Date.now(),
+            Name,
+            Content,
+            StartDate: StartDate,
+            EndDate: EndDate,
+            Tags: 0,
+            Status: 0,
+            ActivityId: 0
         };
+        //print the new task to the console
+        console.log(newTask);
+
+        await createTask(newTask);
         onSubmit(newTask);
-        //Reset form fields after submit
+
         setName('');
         setContent('');
-        setStartDate(new Date());
-        setEndDate(new Date());
-        setStatus('');
-        setActivityId(0);
+        setStartDate(null);
+        setEndDate(null);
+
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <div>
-                <label>Name:</label>
-                <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
-            </div>
-            <div>
-                <label>Content:</label>
-                <input type="text" value={content} onChange={(e) => setContent(e.target.value)} />
-            </div>
-            <div>
-                <label>Start Date:</label>
-                <input type="date" value={startDate.toISOString().split('T')[0]} onChange={(e) => setStartDate(new Date(e.target.value))} />
-            </div>
-            <div>
-                <label>End Date:</label>
-                <input type="date" value={endDate.toISOString().split('T')[0]} onChange={(e) => setEndDate(new Date(e.target.value))} />
-            </div>
-            <div>
-                <label>Status:</label>
-                <input type="text" value={status} onChange={(e) => setStatus(e.target.value)} />
-            </div>
-            <div>
-                <label>Activity ID:</label>
-                <input type="number" value={activityId} onChange={(e) => setActivityId(Number(e.target.value))} />
-            </div>
-            <button type="submit">Submit</button>
-        </form>
+        <div>
+            <h2>Add Task</h2>
+            <form onSubmit={handleSubmit}>
+                <label>
+                    Name:
+                    <input type="text" value={Name} onChange={e => setName(e.target.value)} />
+                </label>
+                <br />
+                <label>
+                    Content:
+                    <input type="text" value={Content} onChange={e => setContent(e.target.value)} />
+                </label>
+                <br />
+                <label>
+                    Start Date:
+                    <input type="date" value={StartDate?.toISOString().substr(0, 10) || ''} onChange={e => setStartDate(new Date(e.target.value))} />
+                </label>
+                <br />
+                <label>
+                    End Date:
+                    <input type="date" value={EndDate?.toISOString().substr(0, 10) || ''} onChange={e => setEndDate(new Date(e.target.value))} />
+                </label>
+                <br />
+                <button type="submit">Add Task</button>
+            </form>
+        </div>
     );
 };
 

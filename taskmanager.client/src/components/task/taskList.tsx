@@ -1,37 +1,43 @@
 import React from 'react';
 
 interface Task {
-    id: number;
-    name: string;
-    content: string;
-    startDate: Date;
-    endDate: Date;
-    status: string;
-    activityId: number;
+    Id: number;
+    Name: string;
+    Description: string;
+    StartDate: Date;
+    EndDate: Date;
 }
 
-interface Props {
+interface TaskListProps {
     tasks: Task[];
 }
 
-const TaskList: React.FC<Props> = ({ tasks }) => {
+const TaskList: React.FC<TaskListProps> = ({ tasks }) => {
     return (
         <div>
             <h2>Task List</h2>
-            <ul>
-                {tasks.map((task) => (
-                    <li key={task.id}>
-                        <div>
-                            <strong>{task.name}</strong>
-                            <p>{task.content}</p>
-                            <p>Start Date: {task.startDate.toDateString()}</p>
-                            <p>End Date: {task.endDate.toDateString()}</p>
-                            <p>Status: {task.status}</p>
-                            <p>Activity ID: {task.activityId}</p>
-                        </div>
-                    </li>
-                ))}
-            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {tasks.map(task => (
+                        <tr key={task.Id}>
+                            <td>{task.Id}</td>
+                            <td>{task.Name}</td>
+                            <td>{task.Description}</td>
+                            <td>{task.StartDate.toLocaleDateString()}</td>
+                            <td>{task.EndDate.toLocaleDateString()}</td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
         </div>
     );
 };

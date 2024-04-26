@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MySqlConnector;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ namespace TaskManager.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TasksController : ControllerBase
+    public class TasksController : Controller
     {
         private readonly ApplicationContext _context;
 
@@ -42,11 +43,12 @@ namespace TaskManager.Controllers
 
         // POST: api/Tasks
         [HttpPost]
-        public async Task<ActionResult<Task>> PostTask(Task task)
+
+        public async Task<ActionResult<Task>> createTask(Task task)
         {
             _context.Tasks.Add(task);
             await _context.SaveChangesAsync();
-
+            Console.WriteLine(task);
             return CreatedAtAction(nameof(GetTask), new { id = task.Id }, task);
         }
 
